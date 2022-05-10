@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Package</title>
+            <!-- Latest compiled and minified CSS -->
+            <link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+            <!-- jQuery library -->
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+                </script>
+            
+            <!-- Latest compiled JavaScript -->
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+                </script>
+            
+    <link rel="stylesheet" href="mystyle.css">
+    <script>
+      function myFunction() {
+        confirm("Package purchased!");
+      }
+      </script>
+</head>
+<body>
+    <div class="Business_Center">
+        <p id="Business_Name">TravelBag <img></p>
+        <img src="departure.png" id="logo" height="50px" width="50px">
+    </div>
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">TravelBag</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="flights.html">Flights</a></li>
+            <li><a href="hotel.html">Hotels</a></li>
+            <li class="active"><a href="package.html">Packages</a></li>
+            <li><a href="blogs.html">Blogs</a></li>
+            <li><a href="policy.html">Policy</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div align = "center">
+          <h1>Our Packages</h1>
+          <p>Here at TravelBag we pride ourselves on easy-to-afford and hassle free travel planning. View our packages below and book yourself a trip today!</p>
+      </div>
+
+      <!-- table with images -->
+      <table border="5" bordercolor="black" align="center">
+        <tr>
+          <td><img src = "package img/manchester.jpg"  alt="" border=3 height=200 width=300></img></td>
+          <td>
+            <h3>Hilton Garden Inn Manchester</h3>
+            <p>
+              <ul>
+                <li>Free Wi-Fi</li>
+                <li>Complimentary breakfast</li>
+              </ul>
+            </p>
+
+            <p>Price includes: car, plane ticket</p>
+          </td>
+          <td>
+            <p align = "center">
+              Price: <br /><b>$1500</b> 
+              <br /> <img src = "package img/buy.png" onclick="myFunction()" height=100 width=100>
+            </p>
+          </td>
+        </tr>
+
+        <tr>
+          <td><img src = "package img/singapore.jpg" alt="" border=3 height=200 width=300></img></td>
+          <td>
+            <h3>Shinjuku Grandbell Hotel</h3>
+            <p>
+              <ul>
+                <li>Free Wi-Fi</li>
+                <li>Complimentary breakfast</li>
+              </ul>
+            </p>
+
+            <p>Price includes: car, plane ticket, guides</p>
+          </td>
+          <td>
+            <p align = "center">
+              Price: <br /><b>$1500</b> 
+              <br /> <img src = "package img/buy.png" onclick="myFunction()" height=100 width=100>
+            </p>
+          </td>
+        </tr>
+
+        <tr>
+          <td><img src = "package img/shinjuku.jpg" alt="" border=3 height=200 width=300></img></td>
+          <td>
+            <h3>YOTEL Singapore</h3>
+            <p>
+              <ul>
+                <li>Free Wi-Fi</li>
+                <li>Complimentary breakfast</li>
+                <li>Hosted guides</li>
+              </ul>
+            </p>
+
+            <p>Price includes: car, organized guides</p>
+          </td>
+          <td>
+            <p align = "center">
+              Price: <br /><b>$1500</b> 
+              <br /> <img src = "package img/buy.png" onclick="myFunction()" height=100 width=100>
+            </p>
+          </td>
+        </tr>
+      </table>
+
+      <!-- further info regarding our package policy -->
+      <div align = "center">
+        <br />
+        <p>Please check our <a href = "policy.html">Policy</a> page for more info regarding our packages.</p>
+      </div>
+
+</body>
+</html>

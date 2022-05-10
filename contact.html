@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+            <!-- Latest compiled and minified CSS -->
+            <link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+            <!-- jQuery library -->
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+                </script>
+            
+            <!-- Latest compiled JavaScript -->
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+                </script>
+                <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+            
+    <link rel="stylesheet" href="mystyle.css">
+    
+</head>
+<body>
+    <div class="Business_Center">
+        <p id="Business_Name">TravelBag <img></p>
+        <img src="departure.png" id="logo" height="50px" width="50px">
+    </div>
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">TravelBag</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="flights.html">Flights</a></li>
+            <li><a href="hotel.html">Hotels</a></li>
+            <li><a href="package.html">Packages</a></li>
+            <li><a href="blogs.html">Blogs</a></li>
+            <li><a href="policy.html">Policy</a></li>
+            <li class="active"><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+      </nav>
+
+
+<div class="container">
+    <div class="contact-parent">
+       <div class="contact-child child1">
+          <p>
+             <i class="fas fa-phone-alt"></i> Let's Talk <br />
+             <span> 1-800-000-0000</span>
+          </p>
+          <p>
+             <i class=" far fa-envelope"></i> General Support <br />
+             <span>contactus@travelbag.com</span>
+          </p>
+       </div>
+       <div class="contact-child child2">
+          <div class="inside-contact">
+             <h2>Contact Us</h2>
+             <h3>
+                <span id="confirm">
+             </h3>
+             <p>Name *</p>
+             <input id="txt_name" type="text" Required="required">
+             <p>Email *</p>
+             <input id="txt_email" type="text" Required="required">
+             <p>Phone *</p>
+             <input id="txt_phone" type="text" Required="required">
+             <p>Subject *</p>
+             <input id="txt_subject" type="text" Required="required">
+             <p>Message *</p>
+             <textarea id="txt_message" rows="4" cols="20" Required="required" ></textarea>
+             <a href="contactConfirm.html"><input onclick="send()" type="submit" id="btn_send" value="SEND"></a>
+             
+          </div>
+       </div>
+    </div>
+ </div>
+ <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-database.js"></script>
+     <script src="contact.js"></script>
+ 
+
+</body>
+</html>
+

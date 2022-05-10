@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flights</title>
+            <!-- Latest compiled and minified CSS -->
+            <link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+            <!-- jQuery library -->
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+                </script>
+            
+            <!-- Latest compiled JavaScript -->
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+                </script>
+    
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="flights-style.css">
+    <script src="flights-javascript.js"></script>
+</head>
+<body class="body">
+    <div class="Business_Center">
+        <p id="Business_Name">TravelBag <img></p>
+        <img src="departure.png" id="logo" height="50px" width="50px">
+    </div>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">TravelBag</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="flights.html">Flights</a></li>
+            <li><a href="hotel.html">Hotels</a></li>
+            <li><a href="package.html">Packages</a></li>
+            <li><a href="blogs.html">Blogs</a></li>
+            <li><a href="policy.html">Policy</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+      </nav>
+ 
+      <header>
+        <div class="search-bar">
+          <h1 class="welcome-headline">Welcome to Flights</h1>
+          <h2 class="command">Please Proceed to Pick Your Flights Below ⥥</h2>
+          <form action="#" role="search" aria-label="site">
+            <label>
+              <div id="radio">
+                <input id="one-way" type="radio" name="flight-option" values="one-way" checked>
+              <label for="one-way">One Way</label>
+              <input id="round-trip" type="radio" name="flight-option" values="round-trip">
+              <label for="round-trip">Round Trip</label> 
+              </div>
+              
+              <!-- New features, adding numbers of adults, children and economic classes-->
+              <div id="flight-info">
+                <div class="info-box">
+                  <label for="adults">Adults</label>
+                  <select name="adults" id="adults">
+                    <option value="1" >1</option>
+                    <option value="2" >2</option>
+                    <option value="3" >3</option>
+                    <option value="4" >4</option>
+                  </select>
+                </div>
+                <div class="info-box">
+                  <label for="children">Children</label>
+                  <select name="children" id="children">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                  </select>
+                </div>
+                <div class="info-box">
+                  <label for="class-type">Class</label>
+                  <select name="class-type" id="class-type">
+                    <option value="Economy">Economy</option>
+                    <option value="Business">Business</option>
+                    <option value="First">First Class</option>
+                  </select>
+                </div>
+              </div>
+  
+                <!-- This is the later-->
+              <img id="search-icon" src="Search Icon.png" alt="Search Icon">
+              <input id="from" type="search" placeholder="From?" required> 
+              <input id="to" type="search" placeholder="To?" required> 
+              <label for="start-date">Select Start Date</label>
+              <input id="start-date" type="date" name="date-choice" required>
+              <label for="end-date">Select End Date</label>
+              <input id="end-date" type="date" name="date-choice" required>
+            </label>
+            <button id="search-button" type="submit" onclick="displayFunction()">Search </button>
+          </form>
+        </div>
+      </header>
+  
+  
+      <section>
+          <!-- Result Pannel-->
+        <div class="display-pannel">
+          <div class="airline-info">
+            <h3 id="search-result">Your Flight Information</h3>
+            <p id="start-location"></p>
+            <p id="end-location"></p>
+            <p id="radio-value"></p>
+            <p id="adult-number"></p>
+            <p id="children-number"></p>
+            <p id="class-value"></p>
+            <p id="start"></p>
+            <p id="end"></p>
+          </div>
+          <div class="select-flight">
+            <h2 id="price">Price</h2>
+            <form action="#">
+              <button id="select-button" type="submit" onclick="displayAlert()">Select Flight</button>
+            </form>
+          </div>
+        </div>
+      </section>
+        <!-- generate links to share the page to Facebook, Twitter, Email here-->
+        <aside id="sidebar"> 
+          <h2 id="share">Share</h2>
+            <ul class="share">
+               <li><a href="#"><u>Facebook</u></a></li>
+               <li><a href="#"><u>Twitter</u></a></li>
+               <li><a href="#"><u>Instagram</u></a></li>
+            </ul>
+       </aside>
+  
+  
+
+
+          
+
+</body>
+</html>

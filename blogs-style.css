@@ -1,0 +1,75 @@
+.grid-container{
+    display: grid;
+    gap: 50px;
+    grid-template-columns: auto auto;
+    padding: 20px;
+}
+
+.grid-item{
+    border: 1px solid rbga(0, 0, 0, 0.8);
+    width: 500px;
+    height: 460px;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 90px;
+}
+.blog{
+    color: red;
+    text-align: center;
+}
+section{
+    float: left;
+    margin: 10px 10px 20px 10px;
+    width: 80%;
+}
+aside{
+    background-color: darkgrey;
+    float: right;
+    margin: 0px 20px 50px 50px;
+    width: 15%;
+}
+.share{
+    background: #fff;
+    width: 50%;
+    margin-left: 60px;
+    margin-right: 40px;
+}
+#share{
+    margin-left: 60px;
+}
+
+footer{
+    background-color: pink;
+    clear: both;
+    margin-top: 0px;
+    border-top: solid black;
+}
+#article-img{
+    width: 500px;
+    border-radius:  2%;
+    border: 1px solid black;
+}
+#article-img:hover{
+    border: solid yellow 2px;
+}
+
+h2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+#share:hover{
+    color: blue;
+}
+.welcome-headline{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.credential{
+    margin-left: 30px;
+}
+li:hover{
+    color: #dc143c;
+}

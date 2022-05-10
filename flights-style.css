@@ -1,0 +1,124 @@
+h2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+li:hover{
+    color: #dc143c;
+}
+button{
+    background-color: #1e90ff;
+    color: black;
+}
+#radio{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+#search-icon{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+#from{
+    padding: 10px 130px 10px 0px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+#to{
+    padding: 10px 130px 10px 0px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+#start-date{
+    padding: 10px 50px 10px 50px;
+    margin-bottom: 10px;
+    text-align: justify ;
+}
+#end-date{
+    padding: 10px 50px 10px 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#search-button{
+    padding: 10px 30px 10px 30px;
+    margin-bottom: 10px;
+}
+.top-pannel{
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    background-color: orange;
+}
+
+section{
+    background-color: darkgrey;
+    float: left;
+    margin: 100px 10px 300px 10px;
+    width: 63%;
+}
+aside{
+    background-color: darkgrey;
+    float: right;
+    margin: 40px 20px 50px 50px;
+    width: 15%;
+}
+.share{
+    background: #fff;
+    width: 50%;
+    margin-left: 60px;
+    margin-right: 40px;
+}
+#share{
+    margin-left: 60px;
+}
+
+footer{
+    background-color: pink;
+    clear: both;
+    margin-top: 0px;
+    border-top: solid black;
+}
+#flight-info{
+    display: flex;
+}
+.display-pannel{
+    display: flex;
+}
+.select-flight{
+    margin-left: 400px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+#price{
+    margin-bottom: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+#select-button{
+    padding: 20px 40px 20px 40px;
+}
+.welcome-headline{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.command{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: goldenrod;
+}
+.airline-info{
+    border: dashed 1px black;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: yellowgreen;
+}
+#price{
+    color: cyan;
+}
+#share:hover{
+    color: blue;
+}
